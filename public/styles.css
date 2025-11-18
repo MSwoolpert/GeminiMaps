@@ -1,0 +1,40 @@
+html, body {
+  height: 100%;
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+#container {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+#input-container {
+  background: #cc0000;
+  padding: 10px;
+  color: white;
+}
+
+#prompt-input {
+  width: 60%;
+  height: 60px;
+  margin-right: 10px;
+}
+
+#submit-btn {
+  padding: 8px 15px;
+  background: black;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+#map-container {
+  flex: 1;
+}
+
+#map {
+  height: 100%;
+  width: 100%;
+}
